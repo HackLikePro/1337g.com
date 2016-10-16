@@ -1,0 +1,139 @@
+<div class="container"  >
+    <div class="row" >
+        <div class="col-xs-12">
+            <div id="photo-header" class="text-center">
+                <!-- PHOTO (AVATAR) -->
+                <div id="photo"  style="cursor:pointer" ng-href="./">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+
+                                    <img src="{{dataSet[1].pic}}" alt="avatar">
+
+                            </div>
+
+                            <div class="back">
+
+                                    <img  src="{{dataSet[0].pic}}" alt="avatar">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    </div>
+
+                <div id="text-header2" class="default"  ng-hide="hidden" ng-class="{show: startShow, fade: startFade}">
+
+                    <h1>{{dataSet[0].welcome}}<br> My name is <span>Junfei Gu</span><sup>25yo</sup> and I'm a <span id="jobtitle">Hacker</span></h1>
+                    <!-- EDUCATION -->
+                    <div class="box2">
+                        <ul id="Certifications" class="clearfix">
+                            <img src="img/cert/ceh.jpg"  height="13%" width="13%">
+                            <img src="img/cert/ccnas.jpg"  height="15%" width="15%">
+                            <img src="img/cert/security+.jpg"  height="15%" width="15%">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row default"  ng-hide="hidden" ng-class="{show: startShow, fade: startFade}">
+        <div class="col-xs-12 col-sm-7">
+            <!-- ABOUT ME -->
+            <div class="box2">
+                <h2>About Me</h2>
+                <p>{{dataSet[0].aboutme}}</p>
+            </div>
+
+            <!-- EDUCATION -->
+            <div class="box2">
+                <h2>Education</h2>
+                <ul id="education2" class="clearfix">
+                    <li  ng-repeat="education in dataSet[0].educations.education">
+                        <div class="year pull-left">{{education.year}}</div>
+                        <div class="description pull-right">
+                            <h3>{{education.school}}</h3>
+                            <p>{{education.detail}}</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- EXPERIENCES -->
+            <div class="box2">
+                <h2>Experiences</h2>
+                <div class="job clearfix" ng-repeat="experience in dataSet[0].experiences.experience">
+                    <div class="col-xs-3">
+                        <div class="where">{{experience.company}}</div>
+                        <div class="year">{{experience.year}}</div>
+                    </div>
+                    <div class="col-xs-9">
+                        <div class="profession">{{experience.title}}</div>
+                        <div class="description">{{experience.detail}}</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+            <!-- CONTACT -->
+            <div class="box2 clearfix">
+                <h2>Contact</h2>
+                <div class="contact-item">
+                    <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+                    <div class="title only pull-right">{{dataSet[0].contact.phone}}</div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+                    <div class="title only pull-right">{{dataSet[0].contact.email}}</div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+                    <div class="title pull-right">LinkedIn</div>
+                    <div class="description pull-right">{{dataSet[0].contact.linkedin}}</div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon pull-left text-center"><span class="fa fa-weixin fa-fw"></span></div>
+                    <div class="title pull-right">WeiXin</div>
+                    <div class="description pull-right">{{dataSet[0].contact.weixin}}</div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon pull-left text-center"><span class="fa fa-skype fa-fw"></span></div>
+                    <div class="title pull-right">Skype</div>
+                    <div class="description pull-right">{{dataSet[0].contact.skype}}</div>
+                </div>
+            </div>
+            <!-- SKILLS -->
+            <div class="box2">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div ng-repeat="skill in dataSet[0].skills.skill" class="item-skills2" data-percent="{{skill.perc}}" style="width: {{skill.perc * 450}}px;">{{skill.name}}</div>
+
+                    <div class="skills-legend clearfix">
+                        <div class="legend-left legend">Beginner</div>
+                        <div class="legend-left legend"><span>Proficient</span></div>
+                        <div class="legend-right legend"><span>Expert</span></div>
+                        <div class="legend-right legend">Master</div>
+                    </div>
+                </div>
+            </div>
+            <!-- LANGUAGES -->
+            <div class="box2">
+                <h2>Languages</h2>
+                <div id="language-skills">
+                    <div ng-repeat="language in dataSet[0].languages.language" class="skill">{{language.name}} <div class="icons pull-right"><div style="width: 80%;" class="icons-red"></div></div></div>
+                </div>
+            </div>
+            <!-- HOBBIES -->
+            <div class="box2">
+                <h2>Hobbies</h2>
+                <div ng-repeat="hobbie in dataSet[0].hobbies.hobbie" class="hobby2">{{hobbie.name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- JQUERY -->
+<script src="/js/jquery.min.js"></script>
+<!-- BOOTSTRAP -->
+<script src="/js/bootstrap.min.js"></script>
+<!-- SCRIPTS -->
+<script src="/js/scripts.js"></script>

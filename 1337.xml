@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<profiles>
+    <profile>
+        <pic>img/avatar.jpg</pic>
+        <welcome>Hello, 你好, Bonjour</welcome>
+        <headline>MY NAME IS KAMIL24YO AND THIS IS MY RESUME/CV</headline>
+        <aboutme>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.</aboutme>
+        <contact>
+            <phone>(514) 686-4658</phone>
+            <email>leetgu@gmail.com</email>
+            <weixin>weixin_admin_1</weixin>
+            <linkedin>www.linkedin.com/in/junfeigu</linkedin>
+            <instgram>loltonygu</instgram>
+            <skype>1337g</skype>
+        </contact>
+        <educations>
+            <education>
+                <year>2016</year>
+                <school>Concordia University Montreal</school>
+                <detail>Computer Science - Web Services and Applications.</detail>
+            </education>
+            <education>
+                <year>2012</year>
+                <school>La Salle College Montreal</school>
+                <detail>CCNA diploma courses.</detail>
+            </education>
+            <education>
+                <year>2009</year>
+                <school>Secondary School Montreal</school>
+                <detail>I spent some time learning french in Secondary school.</detail>
+            </education>
+            <education>
+                <year>2008</year>
+                <school>Jiangyin Qingyang Middle School China</school>
+                <detail> I got my high school diploma in China, the year after I immigrated to Canada with my parents.</detail>
+            </education>
+            <education>
+                <year>1990</year>
+                <school>I was born in China</school>
+                <detail>I am a native mandarin speaker, French and English is my second language.</detail>
+            </education>
+        </educations>
+        <skills>
+            <skill>
+                <name>Network</name>
+                <perc>0.8</perc>
+            </skill>
+            <skill>
+                <name>PHP</name>
+                <perc>0.6</perc>
+            </skill>
+            <skill>
+                <name>Laravel</name>
+                <perc>0.45</perc>
+            </skill>
+            <skill>
+                <name>Angular JS</name>
+                <perc>0.6</perc>
+            </skill>
+            <skill>
+                <name>SQL</name>
+                <perc>0.45</perc>
+            </skill>
+        </skills>
+        <experiences>
+            <experience>
+                <company>Neo Port inc</company>
+                <year>2016</year>
+                <title>IT Support</title>
+                <detail>IT Support</detail>
+            </experience>
+            <experience>
+                <company>Sinorama</company>
+                <year>2014</year>
+                <title>Web Developer</title>
+                <detail>Web Developer</detail>
+            </experience>
+            <experience>
+                <company>Beyond Education</company>
+                <year>2011</year>
+                <title>Network Technician</title>
+                <detail>Network Technician</detail>
+            </experience>
+        </experiences>
+        <languages>
+            <language>
+                <name>Chinese / Mandarin</name>
+                <level>3000</level>
+            </language>
+            <language>
+                <name>English</name>
+                <level>Chinese</level>
+            </language>
+            <language>
+                <name>Français</name>
+                <level>Chinese</level>
+            </language>
+
+        </languages>
+        <hobbies>
+            <hobbie>
+                <name>Coding</name>
+            </hobbie>
+            <hobbie>
+                <name>Photography</name>
+            </hobbie>
+            <hobbie>
+                <name>Travel</name>
+            </hobbie>
+            <hobbie>
+                <name>foodie</name>
+            </hobbie>
+            <hobbie>
+                <name>Poker</name>
+            </hobbie>
+        </hobbies>
+    </profile>
+
+
+    <profile>
+        <pic>img/avatar2.jpg</pic>
+        <welcome>Hello!, 你好!, Bonjour!</welcome>
+        <headline>MY NAME IS KAMIL24YO AND THIS IS MY RESUME/CV</headline>
+        <aboutme>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.</aboutme>
+        <contact>
+            <phone></phone>
+            <email></email>
+            <weixin></weixin>
+            <linkedin></linkedin>
+            <instgram></instgram>
+            <skype></skype>
+        </contact>
+        <education>
+            <year></year>
+            <school></school>
+            <detail></detail>
+        </education>
+        <skills>
+            <skill>
+                <name></name>
+                <perc></perc>
+            </skill>
+        </skills>
+        <experiences>
+            <experience>
+                <company></company>
+                <year></year>
+                <title></title>
+                <detail></detail>
+            </experience>
+        </experiences>
+        <languages>
+            <language>chinese</language>
+            <language>chinese</language>
+            <language>chinese</language>
+        </languages>
+        <hobbies>
+            <hobbie>
+                <name>fuck</name>
+            </hobbie>
+            <hobbie>
+                <name>fuck</name>
+            </hobbie>
+            <hobbie>
+                <name>fuck</name>
+            </hobbie>
+        </hobbies>
+    </profile>
+</profiles>
