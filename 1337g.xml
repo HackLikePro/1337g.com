@@ -4,7 +4,10 @@
         <pic>img/avatar.jpg</pic>
         <welcome>Hello, 你好, Bonjour</welcome>
         <headline>MY NAME IS KAMIL24YO AND THIS IS MY RESUME/CV</headline>
-        <aboutme>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, non, dolorem, cumque distinctio magni quam expedita velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores voluptatem dolorum! Quasi.</aboutme>
+        <aboutme>Hi there! Thank you so much for visiting my CV site, and considering hiring me. My Name is Junfei Gu, friends call me Tony instead(since my Chinese name is bit hard to read and remember).
+            I am a recent 2016 graduated student from Concordia Univeristy - Web services and applications option.I am an open-minded individual with a proven track record in designing websites and cloud arcthecture.
+            I have strong technical skills of both network hardware and software as well as excellent interpersonal skills. I am eager to be challenged in order to grow and improve my communication and professional
+            IT skills gained through previous experiences in the IT sector.</aboutme>
         <contact>
             <phone>(514) 686-4658</phone>
             <email>leetgu@gmail.com</email>
