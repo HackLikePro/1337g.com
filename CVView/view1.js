@@ -33,6 +33,14 @@ angular.module('myApp.CVView', ['ngRoute'])
             return json.profiles.profile;
         };
 
+        $scope.go = function () {
+            document.body.style.backgroundColor = '#ededed';
+            $scope.startFade = true;
+            tohome = function(){$location.path('/');};
+            $timeout(tohome,2000);
+            DataSource.getData('1337g.xml', setData, xmlTransform);
+        };
+
         $scope.hideStuff = function () {
             document.body.style.backgroundColor = 'black';
             $scope.startFade = true;
